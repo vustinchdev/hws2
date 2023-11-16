@@ -1,7 +1,7 @@
 .App {
     --header_height: 60px;
     max-width: 1280px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 131px 0px 216px 0px;
     display: flex;
     justify-content: center;
