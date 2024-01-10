@@ -1,7 +1,14 @@
 .buttonsContainer {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 35px;
 }
 
 .responseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
 
 .imageContainer {
@@ -10,10 +17,17 @@
 .image {
 }
 
-.textContainer{
+.textContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 .code {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .text {
