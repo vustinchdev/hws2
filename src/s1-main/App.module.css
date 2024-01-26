@@ -1,24 +1,25 @@
 .App {
-    --header_height: 60px;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 131px 0px 216px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  --header_height: 60px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 131px 0px 216px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hw {
-    padding: 25px 50px;
-    width: 1100px;
-    border: 1px solid #D9D9D9;
-    margin-bottom: 37px;
+  padding: 25px 50px;
+  width: 1100px;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 37px;
+  position: relative;
 }
 
 .hwTitle {
-    color: #000;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 35px;
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 35px;
 }

@@ -1,11 +1,15 @@
 .pagination {
-    display: flex;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #0d0b0c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .text1 {
-
 }
 
 .text2 {
-
 }
