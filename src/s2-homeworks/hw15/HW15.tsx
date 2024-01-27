@@ -72,7 +72,7 @@ const HW15 = () => {
     //
     setPage(newPage);
     setCount(newCount);
-    sendQuery({ sort, page, count });
+    sendQuery({ sort, page: newPage, count: newCount });
     setSearchParams({ page: String(newPage), count: String(newCount) });
   };
 
@@ -85,7 +85,7 @@ const HW15 = () => {
     //
     setSort(newSort);
     setPage(1);
-    sendQuery({ sort: newSort, page, count });
+    sendQuery({ sort: newSort, page: 1, count });
     setSearchParams({ page: String(page), count: String(count) });
   };
 
